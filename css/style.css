@@ -1,0 +1,300 @@
+
+
+
+
+body{
+
+margin: 0;
+
+padding: 0;
+
+font-size: 20px;
+}
+
+img{
+
+	max-width: 100%;
+	display: block;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-section{}
+
+.logo{
+    width: 20%;
+    float: left;
+    height: 1;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav{
+    width: 80%;
+    float: left;
+    margin-top: 17px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: #515c64;
+    text-transform: uppercase;
+}
+nav ul li a:hover{}
+
+
+.banner-section{background-image: url(../images/background.jpg);}
+
+.banner-content{text-align: center;padding: 15em 0;}
+.banner-content h1{
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 3px 4px 3px black;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    color: white;
+}
+.banner-content p{
+    font-size: xx-large;
+    margin-bottom: 17px;
+    font-weight: 600;
+    color: white;
+}
+.banner-content a{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    background: #69c773;
+    display: inline-block;
+    border-radius: 5px;
+}
+.banner-content a:hover{}
+
+
+.service-section{}
+.heading{
+    text-align: center;
+    padding: 25px;
+}
+.heading h1{font-weight: 900;margin-bottom: 20px;text-transform: uppercase;font-size: xx-large;}
+.heading p{
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.fontawesome{width: 33.33%;float: left;text-align: center;box-sizing: border-box;padding: 26px;}
+.fontawesome i{
+    font-size: 50px;
+}
+.fontawesome h2{text-transform: uppercase;font-size: 25px;}
+.fontawesome p{
+}
+
+
+
+.relax-section{
+    background: rgba(245, 236, 236, 0.89);
+    overflow: hidden;
+}
+.relax-part{
+    width: 76%;
+    float: right;
+    background-image: url(../images/app.jpg);
+    background-size: cover;
+}
+.relax-content{
+    color: white;
+    padding: 40px;
+}
+
+.relax-content h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.relax-content h1 span{
+    color: #69c773;
+}
+.relax-content p{
+    margin-top: 35px;
+}
+.relax-content ul{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 500;
+    padding: 0;
+}
+.relax-content ul li{
+    list-style: none;
+    margin: 2px;
+}
+.relax-content ul li i{}
+.relax-content a{font-size: 12px;text-decoration: none;color: white;font-weight: 800;padding: 13px 15px;text-transform: uppercase;background: #69c773;display: inline-block;border-radius: 20px;margin-top: 10px;}
+
+
+.client-section{
+    padding: 1em 0;
+}
+
+.client{
+    overflow: hidden;
+}
+
+.client-image{
+    width: 20%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.client-image img{border-radius: 50%;}
+
+.client-feedback {
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    background: #69c773;
+    margin-top: 50px;
+}
+.feedback{
+    /* width: 70%; */
+    /* float: left; */
+    /* box-sizing: border-box; */
+    /* padding: 15px; */
+}
+.feedback p{}
+.feedback em{}
+
+
+.contact-section{
+    text-align: center;
+    background: aliceblue;
+}
+
+.contact-container{}
+.contact-container p{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.contact-container a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    padding: 13px 15px;
+    text-transform: uppercase;
+    background: #69c773;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.contact-container a:hover{}
+
+
+
+.link-section{
+    text-align: center;
+    margin: 10px;
+}
+.link-container{}
+
+.link-container ul{
+    text-decoration: none;
+}
+.link-container ul li{
+    list-style: none;
+    display: inline-block;
+}
+.link-container ul li i{}
+
+
+.details-section{
+    background: black;
+    color: white;
+}
+.contact-us{
+    width: 33.33%;
+    float: left;
+}
+.contact-us h2{}
+.contact-us p{}
+
+.latest-post{
+    width: 33.33%;
+    float: left;
+}
+.latest-post h2{}
+.latest-post p{}
+
+.latest-tweets{
+    width: 33.33%;
+    display: inline-block;
+}
+.latest-tweets h2{}
+.latest-tweets p{}
+
+
+.footer-section{
+    text-align: center;
+}
+.copyright{}
+.copyright p{
+    text-align: left;
+}
+
+.footer-logo{}
+.footer-logo ul{
+}
+.footer-logo ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-logo ul li i{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
